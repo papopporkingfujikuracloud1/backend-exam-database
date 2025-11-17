@@ -14,3 +14,7 @@ CREATE SCHEMA employees;
 
 pg_restore -h localhost -p 5432 -U postgres -d employees -v --no-owner --no-privileges -c "employees.sql"
 psql -h localhost -p 5432 -U postgres -d employees
+
+# Git clone
+
+git clone https://github.com/papopporkingfujikuracloud1/backend-exam-database.git
