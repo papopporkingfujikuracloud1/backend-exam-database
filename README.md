@@ -2,7 +2,7 @@
 
 # Setup database
 
-set PGPASSWORD=Papop@2542
+set PGPASSWORD=[My password]
 
 psql -h localhost -p 5432 -U postgres
 
